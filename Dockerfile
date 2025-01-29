@@ -14,4 +14,4 @@ RUN apk --no-cache add curl
 
 EXPOSE 8082
 
-CMD ["java", "-jar", "gateway-0.1"]
+CMD ["java", "-jar", "gateway-0.1.jar"]
