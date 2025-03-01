@@ -6,7 +6,7 @@
 
     <groupId>org.tc</groupId>
     <artifactId>gateway</artifactId>
-    <version>0.2</version>
+    <version>0.3</version>
 
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
@@ -44,7 +44,7 @@
         <dependency>
             <groupId>org.tc</groupId>
             <artifactId>databaseDefinition</artifactId>
-            <version>0.2</version>
+            <version>0.3</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>

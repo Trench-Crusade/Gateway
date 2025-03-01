@@ -9,10 +9,10 @@ FROM eclipse-temurin:22-jre-alpine
 
 WORKDIR /app
 
-COPY --from=build /app/target/gateway-0.2.jar .
+COPY --from=build /app/target/gateway-0.3.jar .
 
 RUN apk --no-cache add curl
 
 EXPOSE 8082
 
-CMD ["java", "-jar", "gateway-0.2.jar"]
+CMD ["java", "-jar", "gateway-0.3.jar"]
